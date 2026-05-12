@@ -1,18 +1,5 @@
 {
-  "buildCommand": "npm run build --legacy-peer-deps",
+  "buildCommand": "npm install --legacy-peer-deps && npm run build",
   "outputDirectory": "dist",
-  "env": {
-    "VITE_API_URL": "https://api.tourneyhub.online"
-  },
-  "routes": [
-    {
-      "src": "^/api/(.*)$",
-      "dest": "https://api.tourneyhub.online/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html",
-      "methods": ["GET", "HEAD"]
-    }
-  ]
+  "framework": "vite"
 }
