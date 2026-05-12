@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/main.tsx","./src/components/layout.tsx","./src/lib/query-client.ts","./src/lib/theme-provider.tsx","./src/pages/home.tsx","./src/pages/leaderboards.tsx","./src/pages/login.tsx","./src/pages/profile.tsx","./src/pages/tournaments.tsx"],"version":"5.9.3"}
