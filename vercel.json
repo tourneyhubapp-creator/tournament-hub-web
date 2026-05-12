@@ -1,5 +1,5 @@
 {
-  "buildCommand": "pnpm build",
+  "buildCommand": "npm run build --legacy-peer-deps",
   "outputDirectory": "dist",
   "env": {
     "VITE_API_URL": "https://api.tourneyhub.online"
